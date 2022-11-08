@@ -1,0 +1,86 @@
+OSI有七層?簡述其功能
+底下網路設備運作在哪一層? Hub, switch, router, L4-switch, proxy
+TCP/IP有那些層?寫出與OSI七層模型的對應!
+簡述底下應用層協定(英文全名與簡單功能說明):
+
+HTTP vs 
+HyperText Transfer Protocol 超文本傳輸協定
+HTTP是一種用於分佈式、協作式和超媒體訊息系統的應用層協定
+HTTP是全球資訊網的數據通信的基礎。
+
+HTTPs
+HyperText Transfer Protocol Secure
+安全通訊的傳輸協定
+主要目的保護交換資料的隱私與完整性
+
+
+DNS vs 
+Domain Name System
+能夠使人更方便地存取網際網路
+
+DNSsec
+Domain Name System Security Extensions
+對DNS資料來源進行認證校驗資料完整性驗證
+
+telnet vs
+以文字字串為主的命令列介面互動功能
+常用於伺服器的遠端控制
+
+ssh
+Secure Shell Protocol
+可在不安全的網路中為網路服務提供安全的傳輸環境
+
+ftp vs
+File Transfer Protocol
+促進檔案的共享（電腦程式或資料）Gnome-fs-ftp.png
+鼓勵間接或者隱式的使用遠端電腦
+向使用者封鎖不同主機中各種檔案儲存系統（File system）的細節
+可靠和高效的傳輸資料
+
+sftp
+Secure File Transfer Protocol
+提供檔案存取、傳輸和管理功能的網路傳輸協定
+
+smtp, 
+Simple Mail Transfer Protocol
+通常用作傳送電子郵件資訊
+
+pop3
+Post Office Protocol - Version 3
+遠端管理在伺服器上的電子郵件
+
+SNMP
+Simple Network Management Protocol
+用以監測連接到網路上的裝置是否有任何引起管理上關注的情況
+
+簡述底下傳輸層協定(英文全名與簡單功能說明):
+TCP vs
+Transmission Control Protocol
+完成第四層傳輸層所指定的功能
+
+UDP
+User Datagram Protocol
+資料的不可靠傳遞，它一旦把應用程式發給網路層的資料傳送出去，就不保留資料備份
+
+reliable(可靠的) vs 
+
+
+unreliable(不可靠的)
+
+
+TCP three-way handshaking(三項交握)
+目的是「為了防止已失效的連接(connect)請求報文段傳送到了伺服器端，因而產生錯誤」
+
+TCP syn flood attack
+消耗伺服器資源使目標裝置緩慢回應或完全不回應合法流量
+
+簡述底下網路層協定(英文全名與簡單功能說明):
+IP
+Internet Protocol Address
+標識傳送或接收資料報的裝置的一串數字
+
+ICMP
+Internet Control Message Protocol
+提供可能發生在通訊環境中的各種問題回饋。
+
+
