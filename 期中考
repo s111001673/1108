@@ -63,10 +63,10 @@ User Datagram Protocol
 資料的不可靠傳遞，它一旦把應用程式發給網路層的資料傳送出去，就不保留資料備份
 
 reliable(可靠的) vs 
-
+不會因其他因素而造成封包遺失
 
 unreliable(不可靠的)
-
+不能保證數據的可靠傳輸
 
 TCP three-way handshaking(三項交握)
 目的是「為了防止已失效的連接(connect)請求報文段傳送到了伺服器端，因而產生錯誤」
